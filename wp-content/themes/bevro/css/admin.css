@@ -1,0 +1,60 @@
+/*start bevro post meta box style*/
+#bevro-meta-box .post-attributes-label{
+margin-bottom:8px;
+}
+#bevro-meta-box .post-attributes-setting{
+margin-top:0px;
+}
+#bevro-meta-box select{
+width:100%;
+}
+/*end bevro post meta box style*/
+
+/*Branding Page*/
+.brv-branding-list{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    margin: 0;
+}
+.brv-branding-list,
+.brv-branding-list * {
+    box-sizing: border-box;
+}
+.brv-branding-list li {
+    display: inline-block;
+    width: 50%;
+    margin: 0;
+    padding: 0.7em;
+}
+.brv-branding-list li:nth-child(odd){
+    padding-left: 0;
+}
+.brv-branding-list li:nth-child(even){
+    padding-right: 0;
+}
+.brv-branding-list li:nth-child(1),
+.brv-branding-list li:nth-child(2){
+    padding-top: 0;
+}
+
+.brv-branding-list .branding-form{
+    margin-bottom: 0;
+}
+@media (max-width: 1024px) {
+    .brv-branding-list li {
+        display: block;
+        width: 100%;
+        padding: 0.5em;
+    }
+    .brv-branding-list li:nth-child(odd){
+        padding:0 0.5em 1em 0;
+    }
+    .brv-branding-list li:nth-child(even){
+        padding:0 0.5em 1em 0;
+    }
+    .brv-branding-list li:nth-child(1),
+    .brv-branding-list li:nth-child(2){
+        padding:0 0.5em 1em 0;
+    }
+}

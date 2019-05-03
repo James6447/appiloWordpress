@@ -1,0 +1,22 @@
+version: '3.3'
+
+services:
+  wordpress:
+#    depends_on:
+#       - db
+    image: wordpress:latest
+    ports:
+      - "8000:80"
+    volumes:
+      - .:/var/www/html
+    restart: always
+    environment:
+      WORDPRESS_DB_HOST: 172.17.0.1:3306
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: JseWCQZ7jvv7bVy
+      WORDPRESS_DB_NAME: wordpress
+
+networks:
+  default:
+    external:
+      name: lat_project
