@@ -55,7 +55,7 @@ this plugin are including the email function that you can check the form replied
 ---
 
 ### How to use this project
-- ####Using normal docker image setting should look like:
+- #### Using normal docker image setting should look like:
 ```
 version: '3.3'
 
@@ -118,10 +118,10 @@ networks:
  
 ```
 
-- ####build wordpress image
+- #### build wordpress image
 ```
 docker-compose up --build -d
 ```
 
 
-- ####Use All-In-One WP Migration plugins to import the data.
+- #### Use All-In-One WP Migration plugins to import the data.
