@@ -1,6 +1,58 @@
 ## APPLIQUE PROJECT
 A website build with Wordpress.
 
+Demo Web:
+
+URL: http://appiloque.lat.tw/
+
+Username: JamesLiew
+
+Password: uXFXNd@KORUljLdm3h
+
+
+### Plugins
+
+- All-in-One-Migration
+
+- Page Builder by SiteOrigin
+
+- SiteOrigin Widgets Bundle
+
+- Ultimate Form Builder Lite
+
+- MetaSlider
+
+#### All-in-One-Migration
+
+This is very helpful to export a project with data, 
+and this is very familiar with database version control. 
+
+#### Page Builder by SiteOrigin, SiteOrigin Widgets Bundle
+
+This plugins is use to build the page more customization.
+
+Have an interface which is very helpful when the admin is creating a page.
+
+Only need to drag and drop when doing the typesetting.
+
+#### MetaSlider
+
+This plugin is use to generate a slider with interface.
+
+All you need to do is paste the html code, very continent.
+
+#### Ultimate Form Builder Lite
+
+Can generate different form with interface.
+
+Every element can also append a class or id for it, 
+that means we can add different form pattern.
+
+Most importantly,
+this plugin are including the email function that you can check the form replied on admin page.
+  
+
+---
 
 ### How to use this project
 - ####Using normal docker image setting should look like:
