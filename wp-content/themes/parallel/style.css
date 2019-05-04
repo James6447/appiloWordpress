@@ -68,7 +68,7 @@ body p {
 }
 body section {
     padding: 66px;
-    background: url(http://localhost:8000/wp-content/uploads/2019/05/cropped-homepage-bg_1-3x-3.png) no-repeat center top;
+    background: url('/wp-content/uploads/2019/05/cropped-homepage-bg_1-3x-3.png') no-repeat center top;
     background-size: auto;
 }
 a {
@@ -88,7 +88,7 @@ a:focus {
 }
 
 .first-container {
-    background: url(http://localhost:8000/wp-content/uploads/2019/05/bg-3x.png);
+    background: url('/wp-content/uploads/2019/05/bg-3x.png');
     background-repeat: no-repeat;
     background-size: contain;
 }
