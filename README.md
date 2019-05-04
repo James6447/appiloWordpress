@@ -9,6 +9,18 @@ Username: JamesLiew
 
 Password: uXFXNd@KORUljLdm3h
 
+--- 
+
+#### What and Why am I using these tools in this project.
+
+### Docker
+Why am I choose docker to build the wordpress environment it is 
+because I think that we can manage these container on server more 
+efficiency and make sure that all project environment stay with same version.
+
+I think that using wordpress to make a website,
+the most important thing is let the thing become interface control as more as possible.
+That's why I have choose the following plugins. 
 
 ### Plugins
 
